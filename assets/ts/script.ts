@@ -28,7 +28,6 @@ class Reddito {
   tasseINPS: number = 33;
   tasseIRPEF?: number;
   redditoAnnuoNetto?: number;
-
   constructor(redditoAnnuoLordo: number) {
     this.redditoAnnuoLordo = redditoAnnuoLordo;
   }
